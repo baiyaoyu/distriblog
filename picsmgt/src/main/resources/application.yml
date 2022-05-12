@@ -1,0 +1,12 @@
+server:
+  port: 30801
+spring:
+  application:
+    name: picsmgt
+  cloud:
+    nacos:
+      server-addr: localhost:8848
+      discovery:
+        username: nacos
+        password: nacos
+        namespace: public
